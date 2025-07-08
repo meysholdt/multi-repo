@@ -2,7 +2,7 @@
   "name": "multi-repo",
   "image": "mcr.microsoft.com/devcontainers/base:latest",
   "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
   },
   "remoteUser": "vscode",
   "containerUser": "vscode",
