@@ -4,9 +4,10 @@
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
-  "remoteUser": "gitpod",
-  "containerUser": "gitpod",
+  "remoteUser": "vscode",
+  "containerUser": "vscode",
   "workspaceFolder": "/workspaces",
   // "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/multi-repo,type=bind"
-  "workspaceMount": "source=/workspaces,target=/workspaces,type=bind"
+  "workspaceMount": "source=/workspaces,target=/workspaces,type=bind",
+  "onCreateCommand": "git clone https://github.com/organization/second-repo.git"
 }

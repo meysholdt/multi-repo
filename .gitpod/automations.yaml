@@ -1,0 +1,7 @@
+tasks:
+    build:
+        name: Clone additional repositories
+        command: |
+            git clone https://github.com/gitpod-samples/gitpodflix-demo
+            git clone https://github.com/gitpod-samples/test
+        triggeredBy: ['postDevcontainerStart', 'manual']
