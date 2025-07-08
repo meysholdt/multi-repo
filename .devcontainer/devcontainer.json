@@ -1,0 +1,12 @@
+{
+  "name": "multi-repo",
+  "image": "mcr.microsoft.com/devcontainers/base:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "remoteUser": "gitpod",
+  "containerUser": "gitpod",
+  "workspaceFolder": "/workspaces",
+  // "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/multi-repo,type=bind"
+  "workspaceMount": "source=/workspaces,target=/workspaces,type=bind"
+}
