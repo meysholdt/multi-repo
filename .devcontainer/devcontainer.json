@@ -9,5 +9,5 @@
   "workspaceFolder": "/workspaces",
   // "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/multi-repo,type=bind"
   "workspaceMount": "source=/workspaces,target=/workspaces,type=bind",
-  "onCreateCommand": "git clone https://github.com/organization/second-repo.git"
+  "onCreateCommand": "git clone https://github.com/gitpod-samples/spring-petclinic"
 }
